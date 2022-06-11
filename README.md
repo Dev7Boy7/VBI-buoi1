@@ -8,3 +8,6 @@ Ví dụ : let org_arr = [1, 2,3,5,6,8, 10, 11];
 Bài tập 2 : Cho 1 chuỗi str Slice như dưới đây. Nhập 1 từ bất kỳ từ bàn phím, in ra số lượng từ này xuất hiện trong chuỗi đã cho. 
 Nâng cao hơn : Tìm kiếm không phân biêt chữ hoa thường, theo dạng regex.
 https://ars.els-cdn.com/content/image/1-s2.0-S0960982203005347-mmc6.txt
+
+
+Sửa bài tập 2 : do nếu dùng trim() sẽ trả về kết quá " x " giống "x" => contents.matches(&input_str[..input_str.len()-2]).count()
