@@ -15,7 +15,7 @@ fn main() {
 
     //Return the number of repeat
 
-    let abc = contents.matches(&input_str.trim()).count();
+    let abc = contents.matches(&input_str[..input_str.len()-2]).count();
 
     println!("The number of repeat : {} ", abc);
 
